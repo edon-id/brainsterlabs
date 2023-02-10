@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 01</title>
+  <link rel="stylesheet" href="./styles.css">
+  <!-- BOOTSTRAP  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"/>
+  <!-- FONTAWESOME  -->
+  <script src="https://kit.fontawesome.com/79229d5957.js" crossorigin="anonymous"></script>
+
+</head>
+  <body>
+
+  <!-- SECTION 1 NAVBAR -->
+
+  <div class="container-fluid bg-warning my-container">
+    <div class="my-logo">
+      <a href="./index.html">
+        <img src="./images/Logo.png" alt="logo">
+        <p>BRAINSTER</p>
+      </a>      
+    </div>
+    
+    <div class="my-hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <div class="my-nav-bar">
+      <div class="close-hamburger">
+        <a href=""><i class="fa-solid fa-xmark fa-2x"></i></a>
+      </div>
+      <ul>
+        <li>
+          <a href="https://brainster.co/marketing" target="_blank">Академија за маркетинг</a>  
+        </li>
+        <li>
+          <a href="https://brainster.co/front-end/" target="_blank">Академија за програмирање</a>
+        </li>
+        <li>
+          <a href="https://brainster.co/data-science/" target="_blank">Академија за data science</a>
+        </li>
+        <li>
+          <a href="https://brainster.co/graphic-design/" target="_blank">Академија за дизајн</a>
+        </li>
+        <li>
+          <a class="btn-student" href="./form.html">Вработи наш студент</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 2 BANNER WITH TEXT AND IMAGE -->
+
+  <div class="container-fluid position-relative banner-with-text text-white text-center">
+    <div class="container center-content">
+      <p class="brainster-labs">Brainster Labs</p>
+    </div>
+  </div>
+    
+  <!-- SECTION 3 FILTERS -->
+
+    <div class="container-fluid">
+    <div class="row">
+      <div class="filters col-md-4 p-4 d-flex justify-content-between align-items-center">
+          <p class="h5 marketing1" id="show-marketing">Проекти на студенти по академијата за маркетинг</p> 
+          <i class="fa-solid fa-circle-check fa-2x"></i>
+      </div>
+      <div class="filters col-md-4 p-4 d-flex justify-content-between align-items-center">
+          <p class="h5 coding1" id="show-coding">Проекти на студенти по академијата за програмирање</p> 
+          <i class="fa-solid fa-circle-check fa-2x"></i>
+      </div>
+      <div class="filters col-md-4 p-4 d-flex justify-content-between align-items-center">
+          <p class="h5 design1" id="show-design" id="hover-up">Проекти на студенти по академијата за дизајн</p> 
+          <a href="" id="filter-design">
+            <i class="fa-solid fa-circle-check fa-2x"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+
+   <!-- SECTION 4 CARDS -->
+
+      <div class="container-fluid bg-warning pb-5">
+        <p class="h1 font-weight-bold text-center text-dark pt-5">Проекти</p>
+      </div>
+
+        <!-- PROGRAMMING CARDS 10 cards -->
+
+        <div class="container-fluid bg-warning">
+          <div class="container pb-5">
+           <div class="row row-cols-1 row-cols-md-3">
+
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-1.jpg" class="card-img-top" alt="fe1">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-2.jpg" class="card-img-top" alt="fe2">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-3.jpg" class="card-img-top" alt="fe3">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-4.jpg" class="card-img-top" alt="fe4">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-5.jpg" class="card-img-top" alt="fe5">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-6.jpg" class="card-img-top" alt="fe6">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-7.jpg" class="card-img-top" alt="fe7">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-8.jpg" class="card-img-top" alt="fe8">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-9.jpg" class="card-img-top" alt="fe9">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards coding initial-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/fe-10.jpg" class="card-img-top" alt="fe9">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Програмирање</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-danger" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+        <!-- MARKETING CARDS 6 cards -->
+
+               <div class="col mb-4 show-cards marketing remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                    <img src="./images/cards1.jpg" class="card-img-top" alt="cards1">
+                  </a>
+                  <div class="card-body">
+          
+                    <p class="rounded bg-warning p-2 w-80">Академија за Маркетинг</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-info" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards marketing remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                    <img src="./images/cards2.jpg" class="card-img-top" alt="cards2">
+                  </a>
+                  <div class="card-body">
+          
+                    <p class="rounded bg-warning p-2 w-80">Академија за Маркетинг</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-info" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards marketing remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                    <img src="./images/cards3.jpg" class="card-img-top" alt="cards3">
+                  </a>
+                  <div class="card-body">
+          
+                    <p class="rounded bg-warning p-2 w-80">Академија за Маркетинг</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-info" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards marketing remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                    <img src="./images/cards4.jpg" class="card-img-top" alt="cards4">
+                  </a>
+                  <div class="card-body">
+          
+                    <p class="rounded bg-warning p-2 w-80">Академија за Маркетинг</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-info" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards marketing remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                    <img src="./images/cards5.jpg" class="card-img-top" alt="cards5">
+                  </a>
+                  <div class="card-body">
+          
+                    <p class="rounded bg-warning p-2 w-80">Академија за Маркетинг</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-info" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards marketing remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                    <img src="./images/cards6.jpg" class="card-img-top" alt="cards6">
+                  </a>
+                  <div class="card-body">
+          
+                    <p class="rounded bg-warning p-2 w-80">Академија за Маркетинг</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-info" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        <!-- DESIGN CARDS  4 cards -->
+
+              <div class="col mb-4 show-cards design remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/d1.jpg" class="card-img-top" alt="d1">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Дизајнн</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-success" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards design remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/d2.jpg" class="card-img-top" alt="d2">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Дизајнн</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-success" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards design remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/d3.jpg" class="card-img-top" alt="d3">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Дизајнн</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-success" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 show-cards design remaining-cards" id="hover-up">
+                <div class="card box-shadow">
+                  <a href="#" target="_blank">
+                  <img src="./images/d4.jpg" class="card-img-top" alt="d4">
+                  </a>
+                  <div class="card-body">
+                    <p class="rounded bg-warning p-2 w-80">Академија за Дизајнн</p>
+                    <p class="h5 card-title mt-3">Име на проектот стои овде во две линии</p>
+                    <p class="card-text">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                    <p class="card-text"><small class="h6">Јануари - Август 2023</small></p>
+                    <div class="text-right">
+                      <a href="#" type="button" class="btn btn-lg btn-success" target="_blank">Дознај повеќе</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="load-more-btn pb-5">
+            <a class="btn btn-lg btn-danger" id="load-more">Прикажи повеќе</a>
+          </div>
+              
+
+        </div>
+      
+        <!-- =========================== -->
+      
+  <!-- SECTION 5 FOOTER -->
+    
+    <div class="container-fluid pt-3 pb-3 text-center bg-dark text-white">
+      <p class="h6">Изработено со <i class="fa-solid fa-heart text-danger"></i> од студентите на Brainster</p>
+    </div>  
+
+    <!-- SCRIPTS  -->
+
+    <script src="./main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+            crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+            integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+            crossorigin="anonymous">
+    </script>
+
+  <!-- --------- -->
+  </body>
+</html>
